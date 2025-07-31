@@ -14,3 +14,9 @@ button {
     padding: 0;
     background-color: unset;
 }
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}

@@ -1,0 +1,41 @@
+.hero {
+    display: flex;
+    align-items: center;
+    background: #ece7e4;
+}
+
+.hero__wrapper {
+    max-width: 509px;
+}
+
+.hero__logo {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #645c55;
+    margin-bottom: 20px;
+}
+
+.hero__title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 110%;
+    color: #1b1a1a;
+    margin-bottom: 18px;
+}
+
+.hero__description {
+    line-height: 150%;
+    color: #403e3b;
+    margin-bottom: 30px;
+}
+
+.hero__read {
+    display: inline-block;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #1b1a1a;
+    padding: 11.5px 20px;
+}

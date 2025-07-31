@@ -1,0 +1,48 @@
+.portfolio {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.portfolio__reeding-house {
+    background-image: url("../../images/reedeng-house.png");
+}
+
+.portfolio__marble-staircase {
+    background-image: url("../../images/marble-staircase.png");
+}
+
+.portfolio__swirling-staircase {
+    background-image: url("../../images/swirling-staircase.png");
+}
+
+.portfolio__inner {
+    position: absolute;
+    top: 50%;
+}
+
+.portfolio__inner-right {
+    right: 75px;
+}
+
+.portfolio__inner-left {
+    left: 60px;
+}
+
+.portfolio__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #403e3b;
+}
+
+.portfolio__descripotion {
+    line-height: 150%;
+    color: #645c55;
+    max-width: 285px;
+}
