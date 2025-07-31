@@ -1,0 +1,32 @@
+.header {
+    padding: 22px 20px 22px 32px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-icon {
+    display: block;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.header_menu-link {
+    font-size: 15px;
+}
+
+.header_menu-button {
+    border-radius: 14px;
+    background: #1b1a1a;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #fff;
+    padding: 11px 21.5px;
+}
